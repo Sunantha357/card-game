@@ -8,3 +8,7 @@ render() {
  );
  }
 }
+activationHandler = c => { console.log(`${c} has been activated.`) }
+...
+<CharacterCard value={c} key={i} 
+activationHandler={this.activationHandler}/>
